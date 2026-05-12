@@ -18,12 +18,12 @@ The NeurIPS-inspired LaTeX source is in `report/main.tex` (compile from `report/
 
 ## Layout
 
-| Path | Role |
-|------|------|
-| `src/preprocess.py` | Load/clean, dummies, stratified split, scaler (train-only fit) |
-| `src/clustering.py` | Elbow/silhouette scans, K-Means, PCA projection |
-| `src/train_eval.py` | Baseline + LR + RF + HistGradientBoosting; cluster ablation helpers |
-| `scripts/reproduce.py` | End-to-end experiment + all figures |
+| Path                   | Role                                                                |
+| ---------------------- | ------------------------------------------------------------------- |
+| `src/preprocess.py`    | Load/clean, dummies, stratified split, scaler (train-only fit)      |
+| `src/clustering.py`    | Elbow/silhouette scans, K-Means, PCA projection                     |
+| `src/train_eval.py`    | Baseline + LR + RF + HistGradientBoosting; cluster ablation helpers |
+| `scripts/reproduce.py` | End-to-end experiment + all figures                                 |
 
 ## Note on XGBoost
 
