@@ -1,0 +1,90 @@
+{
+  "n_clusters": 4,
+  "silhouette_at_k4": 0.23828267064229597,
+  "metrics_plain": {
+    "majority_baseline": {
+      "accuracy": 0.7345635202271115,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.5
+    },
+    "logistic_regression": {
+      "accuracy": 0.7409510290986515,
+      "precision": 0.5077452667814114,
+      "recall": 0.7887700534759359,
+      "f1": 0.6178010471204188,
+      "roc_auc": 0.8414141414141414
+    },
+    "random_forest": {
+      "accuracy": 0.7863733144073811,
+      "precision": 0.6298932384341637,
+      "recall": 0.4732620320855615,
+      "f1": 0.5404580152671755,
+      "roc_auc": 0.8268451781239504
+    },
+    "hist_gradient_boosting": {
+      "accuracy": 0.7565649396735273,
+      "precision": 0.5295238095238095,
+      "recall": 0.7433155080213903,
+      "f1": 0.6184649610678532,
+      "roc_auc": 0.8317923480327571
+    }
+  },
+  "metrics_hybrid": {
+    "majority_baseline": {
+      "accuracy": 0.7345635202271115,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.5
+    },
+    "logistic_regression": {
+      "accuracy": 0.7374024130589071,
+      "precision": 0.5034246575342466,
+      "recall": 0.786096256684492,
+      "f1": 0.6137787056367432,
+      "roc_auc": 0.8413056395153581
+    },
+    "random_forest": {
+      "accuracy": 0.7885024840312278,
+      "precision": 0.6301369863013698,
+      "recall": 0.4919786096256685,
+      "f1": 0.5525525525525525,
+      "roc_auc": 0.8278242785915421
+    },
+    "hist_gradient_boosting": {
+      "accuracy": 0.7551454932576295,
+      "precision": 0.5274102079395085,
+      "recall": 0.7459893048128342,
+      "f1": 0.6179401993355482,
+      "roc_auc": 0.8329032008060141
+    }
+  },
+  "churn_by_cluster_train": [
+    {
+      "cluster": 0,
+      "churn_rate": 0.07248764415156507,
+      "n": 1214
+    },
+    {
+      "cluster": 1,
+      "churn_rate": 0.24150268336314848,
+      "n": 559
+    },
+    {
+      "cluster": 2,
+      "churn_rate": 0.46801656695812244,
+      "n": 2173
+    },
+    {
+      "cluster": 3,
+      "churn_rate": 0.15106635071090047,
+      "n": 1688
+    }
+  ],
+  "class_balance": {
+    "train_churn_rate": 0.2653532126375577,
+    "test_churn_rate": 0.2654364797728886
+  }
+}

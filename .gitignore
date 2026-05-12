@@ -1,0 +1,12 @@
+data/*.csv
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+report/main.pdf
